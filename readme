@@ -1,0 +1,1 @@
+docker cp php web_development-web-1:/usr/local/etc/php   

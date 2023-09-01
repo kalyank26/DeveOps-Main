@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>COVISHIELD</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="social.css">
+        <link rel="stylesheet" href="popup.css">
+        <style>
+            .bor{
+                border:1px none black
+
+            }
+            .cl{
+                font-family:Georgia, 'Times New Roman', Times, serif;
+            }
+            table{
+                border-collapse: collapse;
+            }
+           body{
+               background-image: url("bg3.jpg");
+               font-family: 'Times New Roman', Times, serif;
+           }
+           .txt {
+  color: rgb(175, 175, 175);
+ 
+  text-decoration: none;
+  
+}
+.tablevid{
+    border: 4px dotted black;
+ 
+}
+tr:nth-child(even) {background-color: #b84040;}
+.form-popup {
+    display: none;
+    position: fixed;
+    top:70px;
+    bottom: 30px;
+    right: 570px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    padding:50px;
+    box-shadow: 0px 0px 10px red;
+  }
+
+</style>
+<script>
+     function openNav() {
+                              document.getElementById("mySidepanel").style.width = "250px";
+                            }
+                            
+                            function closeNav() {
+                              document.getElementById("mySidepanel").style.width = "0";
+                            }
+                            function tq(){ 
+                            return "Thanks for visiting our webpage!!";
+                            }     
+</script>
+
+
+    </head>
+    <body onbeforeunload="return tq()">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
+        <script type="text/javascript" src="scroll.js">
+        </script>    
+               <div class="title">
+                <h1 style="text-align: center;"><a href="covid.php"><span class="headcov">COVID19 </span></a><a href="https://en.wikipedia.org/wiki/Karnataka">
+                    <span class="headcoi">Karnataka</span></font> </a></h1></div>
+                    <div class="header"><div id="mySidepanel" class="sidepanel">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                        <a href="index.php">Home</a>
+                        <a href="about us new.php">About us</a>
+                        <a href="index.php#contact">Contact</a>
+                          </div>
+                        <p style="float: left;background-color: black;"><button class="openbtn" onclick="openNav()" >☰ Menu</button></p></div>
+       <br>
+       <p><font size="8"><a href="https://en.wikipedia.org/wiki/Oxford%E2%80%93AstraZeneca_COVID-19_vaccine" target="_blank">COVISHIELD</a></font></p> 
+       <table border="2" align="center" class="tablevid">
+        <tr><td>
+            <table border="2" style="background-color:rgb(192, 110, 78);"><tr>
+                <td><img src="covishield.jpeg" height="300" width="400" usemap="#covishield">
+                 <map name="covishield">
+                     <area shape="rect" coords="0,0,400,300" alt="covaxin" href="https://www.bharatbiotech.com/covaxin.php" target="_blank"> 
+         
+                     </map>
+             
+             
+             </td>  
+          <td> <p><font size="5"><ul type="square"><li> Developed by Oxford University and AstraZeneca, it is given by intramuscular injection,<br>
+                using as a vector the modified chimpanzee adenovirus ChAdOx1.</li><br><br><li> The efficacy of the vaccine is 76.0% at preventing symptomatic COVID-19 beginning 
+                at<br> 22 days following the first dose and 81.3% after the second dose.</li></ul></font></p></td>
+            </tr></table>
+
+      </td></tr>
+    </table>
+       
+          <h3 style="color: red;"> <marquee behaviour="scroll" direction="right">Want to register for Covishield vaccine?? :<font color="blue"><button onclick="openForm()" class="obutton" >Click here</button></font></a></marquee></h3>
+            <hr>
+           <form action="" method="post" style="text-align:center;background-color:black;"  name="myform1" onsubmit="return validateForm()">
+            <div class="form-popup" id="myForm">
+               <h1 style="text-align: center;">Register</h1>
+               <label for="name1"><b>First Name :</b></label>
+               <input type="text" placeholder="Enter your first name" name="name1" id="fname" required size="30" onfocusin="myfocus(this)" onblur="myblur(this)"><br><br>
+               <label for="name2"><b>Last Name :</b></label>
+               <input type="text" placeholder="Enter your last name" name="name2" id="lname" required size="30" onfocusin="myfocus(this)" onblur="myblur(this)"><br><br>
+               <label for="email"><b>Email :</b></label>
+               <input type="email" placeholder="Enter Email" name="email" required size="30" onfocusin="myfocus(this)"><br><br>
+               <label for="mobile"><b>Mobile number :</b></label>  
+               <input type="tel" placeholder="Enter your mobile number" name="mobile" pattern="[0-9]{10}" required size="30" onfocusin="myfocus(this)"><br><br>
+               <label for="Aadhaar"><b>Aadhaar number:</b></label>  
+               <input type="tel" placeholder="Enter your Aadhaar number" name="Aadhaar" pattern="[0-9]{12}" required size="30" onfocusin="myfocus(this)"><br><br>
+               <label for="sex"><b>Gender :</b></label>
+               <label for="female"><input type="radio" name="sex" id="gender" required>Female</label>
+               <label for="male"><input type="radio" name="sex" id="gender" required>Male</label><br><br>
+               <label for="address">Address :</label>
+               <textarea placeholder="Enter your Residential Address" name="textarea" cols="24" rows="2" name="address" required onfocusin="myfocus(this)" onblur="myblur(this)"></textarea><br><br>
+               <label for="dob">Date Of Birth :</label>
+               <input type="date" name="dob" required onfocusin="myfocus(this)" onblur="myblur(this)"><br><br>
+               <label for="vaccine"><b>Vaccine type :</b></label>
+               <input type="radio" name="radiobutton" value="myValue1" name="vaccine" required>Covaxin
+               <input type="radio" name="radiobutton" value="myValue2" name="vaccine" required>Covishield<br><br><br>
+       
+               <button type="submit" name="submit" class="btn" >Register</button>&emsp;
+               <button type="button" class="btn" onclick="closeForm()">Close</button>
+             </form>
+           </div>
+           <script>
+               function openForm() {
+                 document.getElementById("myForm").style.display = "block";
+               }
+               
+               function closeForm() {
+                 document.getElementById("myForm").style.display = "none";
+               }
+               function myblur(a) {
+           a.value=a.value.toUpperCase();
+       }         
+               function myfocus(b)
+               {
+                  b.style.background="pink";
+                  b.style.border=" solid 2px red";
+               }     
+               function validateForm(){
+                var emailID = document.myform1.email.value;
+              atpos = emailID.indexOf("@");
+              dotpos = emailID.lastIndexOf(".");
+            var nam1=document.myform1.name1.value;
+             var nam2=document.myform1.name2.value;
+             var mail=document.myform1.email.value;
+             var mob=document.myform1.mobile.value;
+             var dob1=document.myform1.dob.value;
+             var Aadhaar=document.myform1.Aadhaar.value;
+             var dataPreview = "You've entered the following details: \n" +
+                          "First Name: " + nam1 + "\n" +
+                          "Last Name: " + nam2 + "\n" +
+                          "Mail Address: " + mail + "\n" +
+                          "Mobile Number: " + mob + "\n" +
+                          "DOB: " + dob1 + "\n"+
+                          "Adhaar: "+ Aadhaar +"\n";
+              if (atpos < 1 || ( (dotpos - atpos) < 2 )) {
+            alert("Please enter valid email ID");
+             return false;}
+             else{
+                alert(dataPreview);
+                   return true;
+                   
+             }
+               }
+               </script>
+           <p class="cl"><font size="8"><u>Vaccination Centers in Karnataka:</u></font></p>
+           <center><font size="5">
+            <table cellspacing="30">
+                <tr>
+                    <td>
+       <table style="background-color:rgb(192, 110, 78);">
+           <tr>
+               <th colspan="2" class="bor"><h2>List of <a href="https://www.nitt.edu/home/students/facilitiesnservices/hospital/awareness/Govt_Covid_Vaccination_Centre.pdf" target="_blank" class="txt">government hospitals</a></h2></th>
+           </tr>
+           <tr>
+               <td class="bor">NAME</td>
+           </tr>
+           <tr class="bor">
+               <td class="bor">Arogya kendra</td>
+           </tr>
+           <tr class="bor">
+               <td class="bor">BMCRI hospital</td>
+           </tr>
+           <tr class="bor">
+               <td class="bor">Jaydeva hospital</td>
+           </tr>
+           <tr class="bor">
+               <td class="bor">K.C genral hospital</td>
+           </tr>
+           <tr class="bor">
+               <td class="bor">Laggere gvt hospital</td>
+           </tr>
+           <tr class="bor">
+               <td class="bor">Bowring hospital</td>
+           </tr>
+           <tr class="bor">
+               <td class="bor">ESI hospital</td>
+           </tr>
+       
+       </table>
+                    </td>
+                    <td>
+       <table style="background-color:rgb(192, 110, 78);">
+           <tr class="bor">
+               <th colspan="2" class="bor"><h2>List of <a href="https://cms.tn.gov.in/sites/default/files/whatsnew/Private_Covid.pdf" target="_blank" class="txt"><font colour="blue">private hospitals     </font></a></h2></th>
+           
+           </tr>
+           
+           <tr class="bor">
+               <td class="bor">NAME</td>
+           </tr>
+           <tr class="bor">
+               <td class="bor">DG hospital</td>
+           </tr>
+           <tr class="bor">
+               <td class="bor">Narayana Hospital</td>
+           </tr>
+           <tr class="bor">
+               <td class="bor">Global hospital</td>
+              
+           </tr>
+           <tr class="bor">
+               <td class="bor">S.K hospital</td>
+           </tr>
+           <tr class="bor">
+               <td class="bor">BGS hospital</td>
+           </tr>
+           <tr class="bor">
+               <td class="bor">Manipal Hospital</td>
+           </tr>
+           <tr class="bor">
+               <td class="bor">Columbia asia hospital</td>
+           </tr>
+       </table>
+       
+                    </td>
+                </tr>
+            </table></font>
+        </center>
+     
+         <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <form style="text-align:center;background-color:black; height: 75px;;" method="POST">
+         <a href="index.php" style="font-size: x-large;">Click here to go back</a>
+     </form>
+     <footer class="footer1">
+        <p>
+     <div class="footerl">
+
+         <h3 style="font-family:cursive;margin-top:99px;">Covid<span style="color: red;">Bangalore</span></h3>
+         
+         <p class="footer-links">
+         <a href="index.php">Home</a>
+         +
+         <a href="about us new.php">About us</a>
+         +
+         <a href="#contact">Contact</a>
+         </p>
+         <p style=" color:  #8f9296;
+font-size: 14px;
+font-weight: normal;">Covid Bangalore &copy; 2021</p>
+         </div>
+                             <div class="footerc" style="height: 263px;">
+                                  <p id="contact" style="text-align: center;font-family:cursive;color: red;"><u>CONTACT US</u></p><br>
+                                     <p style="text-align: center;font-size: 15px;"><i class="fa fa-address-book-o" style="font-size:20px;margin-top: -100px"></i>kalyan-xxxxxxxxxx</p>                                 
+                                     <p style="text-align: center;font-size: 15px;"><i class="fa fa-address-book-o" style="font-size:20px;margin-top: -100px"></i>jithendra-xxxxxxxxxx</p>
+                                         
+                                         <p style="text-align: center;font-size: 15px;"><i class="fa fa-address-book-o" style="font-size:20px;margin-top: -100px"></i>raju-xxxxxxxxx</p>
+                                         </div>
+                                     <div class="footerr" style="vertical-align: middle;margin-top:60px;">
+                                         <h3 style="font-family:cursive;">Follow us on:</h3>
+                                         <p style="text-align: center;vertical-align: middle;"><a href="https://www.facebook.com/" class="fa fa-facebook" style="vertical-align: middle;"></a>
+                                         <a href="https://www.instagram.com/" class="fa fa-instagram" style="vertical-align:middle ;"></a>
+                                         <a href="https://www.twitter.com/" class="fa fa-twitter" style="vertical-align: middle;"></a></p>
+                                    </div>                       
+                                     </p></footer>
+     </body></html>
+     
