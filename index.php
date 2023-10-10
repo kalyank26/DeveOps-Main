@@ -51,7 +51,7 @@
         <title>COVID-19</title>
         <script type="text/javascript">
             window.onload = function(){ 
-                            alert("Welcome To our Page :)");
+                            alert("Welcome:)");
                             }
                         function tq(){ 
                             return"Thanks for visiting our webpage!!";
