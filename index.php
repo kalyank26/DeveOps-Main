@@ -63,7 +63,7 @@
         <script type="text/javascript" src="scroll.js">
         </script>    
                <div class="title">
-                <h1>Welcome to our page</h1>
+                <h1>Welcome  page</h1>
                 <h1 style="text-align: center;"><a href="covid.php"><span class="headcov" style="font-family:cursive ;">COVID19 </span></a><a href="https://en.wikipedia.org/wiki/Karnataka">
                     <span class="headcoi" style="font-family: cursive;">BANGALORE</span></font> </a></h1></div>
                     <div class="header"><div id="mySidepanel" class="sidepanel">
